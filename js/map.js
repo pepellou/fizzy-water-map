@@ -8,7 +8,7 @@ var Drinker = function(name, gps) {
 var squad = [
     new Drinker('pepellou', [42.85, -8.63]),
     new Drinker('Whiskey1983', [51.51, -0.12]),
-    new Drinker('ojb', [53.42, -1.35]),
+    new Drinker('ohjay_', [53.42, -1.35]),
     new Drinker('JohnJohn134', [57.05, 9.92]),
     new Drinker('JoannaTries', [-93.17, 44.804])
 ];
