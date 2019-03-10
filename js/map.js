@@ -27,9 +27,21 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+var bottle = L.icon({
+    iconUrl: 'img/pepellWater.png',
+    iconSize: [40, 40],
+    iconAnchor: [20, 20],
+    popupAnchor: [0, -20],
+    // TODO: graphics for shadow
+    //shadowUrl: 'my-icon-shadow.png',
+    //shadowSize: [68, 95],
+    //shadowAnchor: [22, 94]
+});
+
 for (var i = 0; i < squad.length; i++) {
     var drinker = squad[i];
-    L.marker(drinker.gps).addTo(map)
+    L.marker(drinker.gps, { icon: bottle })
+        .addTo(map)
         .bindPopup(drinker.name)
 }
 
