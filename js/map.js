@@ -17,6 +17,7 @@ var squad = [
     new Drinker('ChessWithChris', [41.49, -81.69]),
     new Drinker('abc', [42.712,-73.203]),
     new Drinker('kuartillo', [42.89,-8.5]),
+    new Drinker('c4ndel4', [42.81,-8.64]),
 ];
 
 var map = L
