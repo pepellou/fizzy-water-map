@@ -9,7 +9,7 @@ var squad = [
     new Drinker('pepellou', [42.85, -8.58]),
     new Drinker('Whiskey1983', [51.51, -0.12]),
     new Drinker('ohjay_', [53.42, -1.35]),
-    new Drinker('JohnJohn134', [57.05, 9.92]),
+    new Drinker('JohnJohn134', [55.62,12.58]),
     new Drinker('JoannaTries', [44.804, -93.17]),
     new Drinker('Chesskudo', [52.01, 4.36]),
     new Drinker('Chesscomet', [42.36, -71.06]),
